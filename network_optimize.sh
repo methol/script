@@ -90,8 +90,9 @@ net.ipv4.conf.lo.arp_announce = 2
 net.ipv4.conf.all.arp_announce = 2
 net.ipv4.conf.default.arp_announce = 2
 net.ipv4.ip_forward = 1
-net.ipv4.ip_local_port_range = 1024 65535
+net.ipv4.ip_local_port_range = 20000 65535
 net.ipv4.neigh.default.gc_stale_time = 120
+net.ipv4.tcp_congestion_control=bbr
 net.ipv4.tcp_ecn = 0
 net.ipv4.tcp_syncookies = 1
 net.ipv4.tcp_tw_reuse = 1
@@ -111,14 +112,17 @@ net.ipv4.tcp_mtu_probing = 1
 net.ipv4.tcp_rmem = 4096 87380 67108864
 net.ipv4.tcp_wmem = 4096 65536 67108864
 net.ipv4.tcp_congestion_control = bbr
-net.ipv6.conf.all.forwarding = 1
-net.ipv6.conf.default.forwarding = 1
+net.ipv4.udp_mem = 65536 131072 262144
+net.ipv4.udp_rmem_min=16384
+net.ipv4.udp_wmem_min=16384
 net.nf_conntrack_max = 25000000
 net.netfilter.nf_conntrack_max = 25000000
 net.netfilter.nf_conntrack_tcp_timeout_time_wait = 30
 net.netfilter.nf_conntrack_tcp_timeout_established = 180
 net.netfilter.nf_conntrack_tcp_timeout_close_wait = 30
 net.netfilter.nf_conntrack_tcp_timeout_fin_wait = 30
+# disable ipv6
+net.ipv6.conf.all.disable_ipv6 = 1
 EOF
 cat > /etc/security/limits.conf << EOF
 * soft nofile 512000
