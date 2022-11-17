@@ -1,0 +1,8 @@
+#!name=湖北核酸
+#!desc=不可描述 
+
+[Script]
+核酸记录 = type=http-response,pattern=.*epidemicbg/nucleic/infoV.*,requires-body=1,max-size=0,script-path=https://raw.fastgit.org/methol/script/main/hb_hs.js
+
+[MITM]
+hostname = %INSERT% whhb.tgovcloud.com
