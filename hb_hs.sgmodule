@@ -3,6 +3,7 @@
 
 [Script]
 核酸记录 = type=http-response,pattern=.*epidemicbg/nucleic/infoV.*,requires-body=1,max-size=0,script-path=https://raw.fastgit.org/methol/script/main/hb_hs.js
+核酸green = type=http-response,pattern=.*epidemicbg/rylxdmInfo/v2/(queryHealthCheck|get).*,requires-body=1,max-size=0,script-path=https://raw.fastgit.org/methol/script/main/hb_green.js
 
 [MITM]
 hostname = %INSERT% whhb.tgovcloud.com
