@@ -1,10 +1,10 @@
 #EXTM3U
+#EXTINF:-1,tvg-id="CCTV4K" tvg-name="CCTV4K" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV4K
+http://159.75.85.63:8765/telegram@feiyangdigital-cctv4k.m3u8
+#EXTINF:-1,tvg-id="CCTV16-4K" tvg-name="CCTV16-4K" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV16-4K
+http://159.75.85.63:8765/telegram@feiyangdigital-cctv16-4k.m3u8
 #EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV1
 https://live.v1.mk/api/ghyx.php?id=CCTV1HD_6000
-#EXTINF:-1,tvg-id="CCTV1 UHD" tvg-name="CCTV1 UHD" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV1 UHD
-http://159.75.85.63:8654/telegram@feiyangdigital-gudou-cctv4k.m3u8
-#EXTINF:-1,tvg-id="CCTV1 UHD" tvg-name="CCTV1 UHD" tvg-logo="https://epg.112114.xyz/logo/CCTV1.png" group-title="央视",CCTV1 UHD
-http://pull-hls-spe-l1.douyinliving.com/fantasy/stream-688813559861478070_spuhd/playlist.m3u8?_neptune_token=MIGVBAy0ydj8lY99LVYcCeEEc2JIIZB6-Y3XDyOr8IP_VP0h-KjfVIAcnM6uiQ1Nu4XW10I2NllNsJBEs5aFv0TBHgo6hTmmH5ugcLyMlbxPrUq1mqTzy_FEyf-X8GeGFkmzbZI2VbiYBVo4gHq-Q1tJux-eCWm6z0pPjqczPNriExftl3QEEBldoVmJFY8LdF-5CztMCek&keeptime=00015180&wsSecret=28f7a3acc4e66ad51edf9c62b7d282f0&wsTime=63cbde15
 #EXTINF:-1,tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://epg.112114.xyz/logo/CCTV2.png" group-title="央视",CCTV2
 https://live.v1.mk/api/ghyx.php?id=CCTV2HD_6000
 #EXTINF:-1,tvg-id="CCTV3" tvg-name="CCTV3" tvg-logo="https://epg.112114.xyz/logo/CCTV3.png" group-title="央视",CCTV3
@@ -51,6 +51,10 @@ https://live.v1.mk/api/ghyx.php?id=MotionHD_2000
 https://live.v1.mk/api/ghyx.php?id=DuShiJuChangHD_6000
 #EXTINF:-1,tvg-id="SITV劲爆体育" tvg-name="SITV劲爆体育" tvg-logo="https://epg.112114.xyz/logo/SITV劲爆体育.png" group-title="其他",劲爆体育
 https://live.v1.mk/api/ghyx.php?id=JinBaoTiYuHD_6000
+#EXTINF:-1,tvg-id="广东体育4K" tvg-name="广东体育4K" tvg-logo="https://epg.112114.xyz/logo/广东体育.png" group-title="卫视",广东体育4K
+http://159.75.85.63:8765/telegram@feiyangdigital-gdty.m3u8
+#EXTINF:-1,tvg-id="广东综艺4K" tvg-name="广东综艺4K" tvg-logo="https://epg.112114.xyz/logo/广东综艺.png" group-title="卫视",广东综艺4K
+http://159.75.85.63:8765/telegram@feiyangdigital-gdzy4k.m3u8
 #EXTINF:-1,tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://epg.112114.xyz/logo/浙江卫视.png" group-title="卫视",浙江卫视
 https://live.v1.mk/api/ghyx.php?id=ZheJiangHD_6000
 #EXTINF:-1,tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://epg.112114.xyz/logo/北京卫视.png" group-title="卫视",北京卫视
@@ -219,6 +223,12 @@ https://live.v1.mk/api/ghyx.php?id=ShuHuaPinDaoHD_2000
 https://live.v1.mk/api/ghyx.php?id=ChaPinDaoHD_2000
 #EXTINF:-1,tvg-id="足球" tvg-name="足球" tvg-logo="https://epg.112114.xyz/logo/咪咕足球.png" group-title="其他",足球频道
 https://live.v1.mk/api/ghyx.php?id=ZuQiuHD_6000
+#EXTINF:-1 group-title="港澳台",星空卫视
+http://159.75.85.63:8765/telegram@feiyangdigital-xingkong.m3u8
+#EXTINF:-1 group-title="港澳台",翡翠台
+http://159.75.85.63:8765/telegram@feiyangdigital-feicui.m3u8
+#EXTINF:-1 group-title="港澳台",明珠台
+http://159.75.85.63:8765/telegram@feiyangdigital-mingzhu.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰资讯
 http://playtv-live.ifeng.com:80/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 group-title="港澳台",凤凰资讯
